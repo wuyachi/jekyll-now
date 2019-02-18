@@ -11,9 +11,9 @@
 首先想到的是新项目需要在Project Structure里面指定一下SDK，但是这种方式并没有解决问题。
 ![image](http://ww1.sinaimg.cn/large/b6489cc0gy1g0b5nufbjgj21ba0jmaew.jpg)
 
-再打开pom，发现maven找不到相关的Spring包。  
+再打开pom，发现maven找不到相关的Spring包，可能是因为网络问题无法下载。  
 这时候进入到maven ～/.m2 下面修改settings.xml  
-把默认的镜像修改成下面这样，再次reimport maven project就好了。
+把默认的镜像修改成阿里云，再次reimport maven project就好了。
 ```
 <mirror>
     <id>nexus-aliyun</id>
