@@ -1,4 +1,4 @@
-今天用 Spring 官网提供的 [Spring Initializr](https://start.spring.io)来创建一个Spring项目。  
+今天学习用 Spring 官网提供的 [Spring Initializr](https://start.spring.io)来创建一个Spring项目。  
 项目类型选择Maven Project，语言选择Java，Spring Boot版本默认当前最新发布版本。  
 我们可以对Project Metadata进行自定义，另外还可以更具需要选择依赖，这里我们选择 web和Actuator。  
 设置好后，点击 Generate Project 按钮，会下载一个Spring项目骨架。  
